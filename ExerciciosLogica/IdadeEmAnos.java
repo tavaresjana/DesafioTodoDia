@@ -16,12 +16,13 @@ public class IdadeEmAnos {
 		// Solicitando informação sobre a idade em dias que é armazenada na variavel
 		// dias
 		System.out.println("Digite sua idade em dias: ");
-		dias = ler.nextInt();
+		dias = ler.nextInt(); 
 
 		// calculo da quantidade de anos. Quantidade de dias informada é dividida pelo
 		// valor fixo de 365 dias por ano
 		anos = dias / 365;
 
 		System.out.println("\nSua idade em anos é: " + anos);
+		
 	}
 }
